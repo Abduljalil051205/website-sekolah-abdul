@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091a30"/>
+      <stop offset="55%" stop-color="#0f294a"/>
+      <stop offset="100%" stop-color="#0d7377"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="520" fill="url(#bgGrad)"/>
+  <circle cx="1060" cy="95" r="170" fill="#e09f3e" fill-opacity="0.14"/>
+  <circle cx="140" cy="440" r="190" fill="#ffffff" fill-opacity="0.06"/>
+  <rect x="80" y="90" width="1040" height="340" rx="20" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2"/>
+  <rect x="470" y="145" width="260" height="36" rx="18" fill="#e09f3e"/>
+  <text x="600" y="168" font-family="Plus Jakarta Sans, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#091a30" text-anchor="middle">TEMPLATE BERITA SEKOLAH</text>
+  <text x="600" y="245" font-family="Plus Jakarta Sans, Segoe UI, Arial, sans-serif" font-size="36" font-weight="800" fill="#ffffff" text-anchor="middle">SMA Cendekia Galunggung Tasikmalaya</text>
+  <text x="600" y="295" font-family="Plus Jakarta Sans, Segoe UI, Arial, sans-serif" font-size="20" font-weight="500" fill="#cbd5e1" text-anchor="middle">Ganti gambar ini dengan foto dokumentasi kegiatan atau artikel terbaru Anda</text>
+  <text x="600" y="365" font-family="Plus Jakarta Sans, Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#fde68a" text-anchor="middle">Jl. Siliwangi No. 128, Kec. Tawang, Kota Tasikmalaya • Jawa Barat</text>
+</svg>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Kegiatan | SMA Cendekia Galunggung Tasikmalaya</title>
+  <link rel="stylesheet" href="css/abdul_style.css">
+</head>
+<body>
+  <!-- Top Bar Informasi Sekolah -->
+  <div class="abdul_topbar">
+    <div class="abdul_container abdul_topbar_inner">
+      <div class="abdul_topbar_info">
+        <span class="abdul_topbar_item">Jl. Siliwangi No. 128, Kec. Tawang, Kota Tasikmalaya</span>
+        <span class="abdul_topbar_item">Telp: (0265) 334890</span>
+        <span class="abdul_topbar_item">info@smacendekiagalunggung.sch.id</span>
+      </div>
+      <div>
+        <span class="abdul_topbar_badge">Akreditasi A • PPDB 2026/2027 Dibuka</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header &amp; Navigasi Utama (#abdul_header &amp; .abdul_menu) -->
+  <header id="abdul_header">
+    <div class="abdul_container abdul_navbar">
+      <a href="index.html" class="abdul_brand">
+        <div class="abdul_logo_box">
+          <img src="images/logo.png" alt="Logo Sekolah">
+        </div>
+        <div class="abdul_brand_text">
+          <span class="abdul_brand_title">SMA Cendekia Galunggung</span>
+          <span class="abdul_brand_sub">KOTA TASIKMALAYA • JAWA BARAT</span>
+        </div>
+      </a>
+
+      <button id="abdul_nav_toggle" aria-label="Buka Menu Navigasi" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <ul class="abdul_menu">
+        <li class="abdul_menu_item"><a href="index.html" class="abdul_menu_link">Beranda</a></li>
+        <li class="abdul_menu_item"><a href="profil.html" class="abdul_menu_link">Profil Sekolah</a></li>
+        <li class="abdul_menu_item"><a href="akademik.html" class="abdul_menu_link">Akademik</a></li>
+        <li class="abdul_menu_item"><a href="guru.html" class="abdul_menu_link">Guru &amp; Staf</a></li>
+        <li class="abdul_menu_item"><a href="berita.html" class="abdul_menu_link">Berita</a></li>
+        <li class="abdul_menu_item"><a href="galeri.html" class="abdul_menu_link abdul_active">Galeri</a></li>
+        <li class="abdul_menu_item"><a href="kontak.html" class="abdul_menu_link">Kontak</a></li>
+        <li class="abdul_menu_item"><a href="post-2.html" class="abdul_menu_cta">Info PPDB</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="abdul_page_banner">
+    <div class="abdul_container">
+      <div class="abdul_breadcrumb">
+        <a href="index.html">Beranda</a> <span>/</span> <span>Galeri Kegiatan</span>
+      </div>
+      <h1 class="abdul_page_title">Galeri Dokumentasi Sekolah</h1>
+      <p class="abdul_page_subtitle">
+        Rekam jejak aktivitas pembelajaran, prestasi siswa, fasilitas sekolah, dan kegiatan ekstrakurikuler. Klik foto untuk memperbesar.
+      </p>
+    </div>
+  </section>
+
+  <section class="abdul_section">
+    <div class="abdul_container">
+      <div class="abdul_filter_bar" style="justify-content:center;">
+        <div class="abdul_filter_group">
+          <button class="abdul_filter_btn abdul_filter_active" data-abdul-filter="semua">Semua Dokumentasi</button>
+          <button class="abdul_filter_btn" data-abdul-filter="pembelajaran">Kegiatan Belajar</button>
+          <button class="abdul_filter_btn" data-abdul-filter="prestasi">Prestasi &amp; Lomba</button>
+          <button class="abdul_filter_btn" data-abdul-filter="fasilitas">Fasilitas Sekolah</button>
+        </div>
+      </div>
+
+      <div class="abdul_grid_3">
+        <div class="abdul_gallery_item" data-abdul-category="pembelajaran"
+             data-abdul-title="Praktikum Pemrograman Web di Lab Komputer 1"
+             data-abdul-meta="15 Oktober 2026 • Laboratorium Komputer"
+             data-abdul-desc="Siswa kelas XI sedang mempraktikkan pembuatan halaman website responsif dengan HTML5, CSS3, dan JavaScript.">
+          <div class="abdul_gallery_visual">
+            <img src="images/lab-komputer.jpg" alt="Praktikum Pemrograman Web" class="abdul_gallery_img">
+          </div>
+          <div class="abdul_gallery_caption">
+            <h3 class="abdul_gallery_title">Praktikum Pemrograman Web</h3>
+            <p class="abdul_gallery_meta">Laboratorium Komputer • Klik untuk detail</p>
+          </div>
+        </div>
+
+        <div class="abdul_gallery_item" data-abdul-category="prestasi"
+             data-abdul-title="Penyerahan Piala Juara 1 Web Design Jawa Barat"
+             data-abdul-meta="12 November 2026 • Aula Utama Sekolah"
+             data-abdul-desc="Tim ekstrakurikuler Web &amp; Coding Club bersama Kepala Sekolah Moh Abdul Jalil, S.Kom. usai meraih juara pertama tingkat Provinsi Jawa Barat.">
+          <div class="abdul_gallery_visual">
+            <img src="images/berita-juara-web.jpg" alt="Penyerahan Piala Juara 1 Jawa Barat" class="abdul_gallery_img">
+          </div>
+          <div class="abdul_gallery_caption">
+            <h3 class="abdul_gallery_title">Penyerahan Piala Juara 1 Jabar</h3>
+            <p class="abdul_gallery_meta">Prestasi Provinsi • Klik untuk detail</p>
+          </div>
+        </div>
+
+        <div class="abdul_gallery_item" data-abdul-category="fasilitas"
+             data-abdul-title="Gedung Utama &amp; Lapangan Upacara Sekolah"
+             data-abdul-meta="02 September 2026 • Jl. Siliwangi Tasikmalaya"
+             data-abdul-desc="Lingkungan sekolah yang asri, bersih, dan nyaman di pusat Kota Tasikmalaya mendukung suasana belajar kondusif.">
+          <div class="abdul_gallery_visual">
+            <img src="images/gedung-sekolah.jpg" alt="Gedung Utama dan Lapangan Sekolah" class="abdul_gallery_img">
+          </div>
+          <div class="abdul_gallery_caption">
+            <h3 class="abdul_gallery_title">Gedung Utama &amp; Lapangan Sekolah</h3>
+            <p class="abdul_gallery_meta">Fasilitas Sekolah • Klik untuk detail</p>
+          </div>
+        </div>
+
+        <div class="abdul_gallery_item" data-abdul-category="pembelajaran"
+             data-abdul-title="Eksperimen Kimia di Laboratorium IPA"
+             data-abdul-meta="20 Oktober 2026 • Lab IPA Terpadu"
+             data-abdul-desc="Kegiatan praktikum reaksi larutan siswa kelas XII MIPA didampingi guru pembimbing laboratorium.">
+          <div class="abdul_gallery_visual">
+            <img src="images/lab-ipa.jpg" alt="Eksperimen Kimia Terpadu" class="abdul_gallery_img">
+          </div>
+          <div class="abdul_gallery_caption">
+            <h3 class="abdul_gallery_title">Eksperimen Kimia Terpadu</h3>
+            <p class="abdul_gallery_meta">Laboratorium IPA • Klik untuk detail</p>
+          </div>
+        </div>
+
+        <div class="abdul_gallery_item" data-abdul-category="prestasi"
+             data-abdul-title="Pasukan Pengibar Bendera (Paskibra) Kota Tasikmalaya"
+             data-abdul-meta="17 Agustus 2026 • Lapangan Dadaha Tasikmalaya"
+             data-abdul-desc="Perwakilan siswa SMA Cendekia Galunggung yang terpilih menjadi anggota Paskibraka tingkat Kota Tasikmalaya.">
+          <div class="abdul_gallery_visual">
+            <img src="images/ekskul-paskibra.jpg" alt="Paskibraka Kota Tasikmalaya" class="abdul_gallery_img">
+          </div>
+          <div class="abdul_gallery_caption">
+            <h3 class="abdul_gallery_title">Paskibraka Kota Tasikmalaya</h3>
+            <p class="abdul_gallery_meta">Ekstrakurikuler • Klik untuk detail</p>
+          </div>
+        </div>
+
+        <div class="abdul_gallery_item" data-abdul-category="fasilitas"
+             data-abdul-title="Perpustakaan Digital &amp; Ruang Baca Siswa"
+             data-abdul-meta="10 Oktober 2026 • Lantai 2 Gedung Barat"
+             data-abdul-desc="Fasilitas literasi modern dengan akses katalog digital dan koleksi ribuan referensi pelajaran maupun karya sastra.">
+          <div class="abdul_gallery_visual">
+            <img src="images/perpustakaan.jpg" alt="Perpustakaan Digital Galunggung" class="abdul_gallery_img">
+          </div>
+          <div class="abdul_gallery_caption">
+            <h3 class="abdul_gallery_title">Perpustakaan Digital Galunggung</h3>
+            <p class="abdul_gallery_meta">Fasilitas Literasi • Klik untuk detail</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal Lightbox Galeri -->
+  <div id="abdul_lightbox" role="dialog" aria-modal="true">
+    <div class="abdul_modal_box">
+      <div id="abdul_modal_visual"></div>
+      <div class="abdul_modal_body">
+        <div class="abdul_modal_header">
+          <h3 id="abdul_modal_title" class="abdul_card_title" style="margin:0;">Judul Foto</h3>
+          <button id="abdul_modal_close" class="abdul_modal_close" aria-label="Tutup">&times;</button>
+        </div>
+        <p id="abdul_modal_meta" class="abdul_gallery_meta" style="margin-bottom:10px;"></p>
+        <p id="abdul_modal_desc" class="abdul_card_text"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer (#abdul_footer) -->
+  <footer id="abdul_footer">
+    <div class="abdul_container abdul_footer_grid">
+      <div>
+        <h3 class="abdul_footer_heading">SMA Cendekia Galunggung</h3>
+        <p style="font-size:0.9rem; line-height:1.7; margin-bottom:14px;">
+          Lembaga pendidikan menengah atas unggulan di Kota Tasikmalaya yang memadukan penguasaan sains, teknologi digital, wawasan global, serta pembentukan karakter berakhlak mulia.
+        </p>
+        <p style="font-size:0.85rem; color:#94a3b8;">NPSN: 20298412 • Terakreditasi A (Unggul)</p>
+      </div>
+
+      <div>
+        <h3 class="abdul_footer_heading">Navigasi Utama</h3>
+        <ul class="abdul_footer_links">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="profil.html">Profil &amp; Visi Misi</a></li>
+          <li><a href="akademik.html">Program Akademik</a></li>
+          <li><a href="guru.html">Direktori Guru &amp; Staf</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="abdul_footer_heading">Informasi Publik</h3>
+        <ul class="abdul_footer_links">
+          <li><a href="berita.html">Berita &amp; Artikel</a></li>
+          <li><a href="post-2.html">Penerimaan Siswa Baru (PPDB)</a></li>
+          <li><a href="galeri.html">Galeri Kegiatan</a></li>
+          <li><a href="kontak.html">Hubungi Kami</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="abdul_footer_heading">Alamat Sekolah</h3>
+        <p style="font-size:0.88rem; margin-bottom:8px;">
+          Jl. Siliwangi No. 128, Kel. Kahuripan, Kec. Tawang, Kota Tasikmalaya, Jawa Barat 46115
+        </p>
+        <p style="font-size:0.88rem; margin-bottom:6px;">Telepon: (0265) 334890</p>
+        <p style="font-size:0.88rem;">Email: info@smacendekiagalunggung.sch.id</p>
+      </div>
+    </div>
+
+    <div class="abdul_container abdul_footer_bottom">
+      <span>&copy; 2026 SMA Cendekia Galunggung Tasikmalaya. Seluruh Hak Cipta Dilindungi.</span>
+      <span>Dikembangkan untuk Tugas UTS Pemrograman Web &amp; Internet</span>
+    </div>
+  </footer>
+
+  <button id="abdul_back_top" title="Kembali ke Atas" aria-label="Kembali ke Atas">&uarr;</button>
+  <script src="js/abdul_script.js"></script>
+</body>
+</html>
